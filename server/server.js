@@ -30,7 +30,7 @@ const schema1=new mongoose.Schema({
     academyDescription:String
                                   
                                 })
-let id1=0;
+let id1=0; 
 const schema2=new mongoose.Schema({
     
     id:Number,
