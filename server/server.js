@@ -27,12 +27,11 @@ const schema1=new mongoose.Schema({
     imageUrl:String,
     emailId:String,
     academyLocation:String,
-    academyDescription:String
-                                  
+    academyDescription:String              
                                 })
 let id1=0; 
 const schema2=new mongoose.Schema({
-    
+  
     id:Number,
     coursename:String,
         courseduration:String,
